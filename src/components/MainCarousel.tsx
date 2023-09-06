@@ -27,25 +27,25 @@ const MainCarousel = () => {
       showArrows={false}
     >
       <Box w={'full'} h={'100vh'}>
-        <Image src={img_1} />
+        <Image src={img_1} h={'full'} w={'full'} objectFit={'cover'} />
         <Heading bg={'blackAlpha.600'} color={'white'} {...headingOptions}>
           Watch the Future
         </Heading>
       </Box>
       <Box w={'full'} h={'100vh'}>
-        <Image src={img_2} />
+        <Image src={img_2} h={'full'} w={'full'} objectFit={'cover'} />
         <Heading bg={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Future is gaming
         </Heading>
       </Box>
       <Box w={'full'} h={'100vh'}>
-        <Image src={img_3} />
+        <Image src={img_3} h={'full'} w={'full'} objectFit={'cover'} />
         <Heading bg={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Gaming on Console
         </Heading>
       </Box>
       <Box w={'full'} h={'100vh'}>
-        <Image src={img_4} />
+        <Image src={img_4} h={'full'} w={'full'} objectFit={'cover'} />
         <Heading bg={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Nights
         </Heading>
