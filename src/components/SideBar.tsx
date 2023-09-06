@@ -34,6 +34,7 @@ const SideBar = () => {
         p={'0'}
         h={'12'}
         w={'12'}
+        zIndex={'overlay'}
         borderRadius={'full'}
         onClick={onOpen}
       >
