@@ -19,7 +19,7 @@ export const Login = () => {
           m={'auto'}
           my={'16'}
         >
-          <Heading>Welcome Back</Heading>
+          <Heading alignSelf={'center'}>Welcome Back</Heading>
           <Input
             placeholder='Email....'
             type='email'
