@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
-import { ChakraBaseProvider } from '@chakra-ui/react'
+import { ChakraProvider, theme, ColorModeScript } from '@chakra-ui/react'
+import ColorModeSwitcher from './ColorModeSwitcher.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ChakraBaseProvider>
+    <ColorModeScript />
+    <ChakraProvider theme={theme}>
+      <ColorModeSwitcher />
       <App />
-    </ChakraBaseProvider>
+    </ChakraProvider>
   </React.StrictMode>
 )
